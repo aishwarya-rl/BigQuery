@@ -3,6 +3,8 @@ SELECT max(cumulative_confirmed)
 FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
 where country_name = 'India' LIMIT 10
 
+
+
 #2
 SELECT Ave_Age_of_Mother, Ave_Pre_pregnancy_BMI
 FROM `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality` LIMIT 10
@@ -51,3 +53,6 @@ FROM `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality` LIMIT 10
   #10
   SELECT SUM(year_2018) as total_pop_in_2018
   FROM `bigquery-public-data.world_bank_global_population.population_by_country` 
+  
+  ![image](https://user-images.githubusercontent.com/79004583/109799430-7ac87300-7c35-11eb-83d5-418ed0f77872.png)
+
